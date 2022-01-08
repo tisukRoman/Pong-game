@@ -1,0 +1,51 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+}
+
+.score {
+  position: absolute;
+  top: 1vh;
+  font-size: 3rem;
+  color: #fff;
+  opacity: 0.5;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ball {
+  position: absolute;
+  --x: 50;
+  --y: 50;
+  left: calc(var(--x) * 1vw);
+  top: calc(var(--y) * 1vh);
+  transform: translate(-50%, -50%);
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.paddle {
+  --y: 50;
+  top: calc(var(--y) * 1vh);
+  transform: translateY(-50%);
+  position: absolute;
+  background-color: #fff;
+  width: 1em;
+  height: 6em;
+}
+
+.paddle.left {
+  left: 1vw;
+}
+
+.paddle.right {
+  right: 1vw;
+}
