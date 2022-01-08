@@ -1,0 +1,2 @@
+html{overflow:hidden}body{background-color:#111;margin:0;padding:0}.score{color:#fff;display:flex;font-size:3rem;justify-content:center;opacity:.5;position:absolute;top:1vh;width:100%}.ball{--x:50;border-radius:50%;height:2em;left:calc(var(--x)*1vw);transform:translate(-50%,-50%);width:2em}.ball,.paddle{--y:50;background-color:#fff;position:absolute;top:calc(var(--y)*1vh)}.paddle{height:6em;transform:translateY(-50%);width:1em}.paddle.left{left:1vw}.paddle.right{right:1vw}
+/*# sourceMappingURL=index.fbc735aa.css.map */
